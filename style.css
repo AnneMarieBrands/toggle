@@ -1,0 +1,52 @@
+body {
+  /*background-color: lightgrey;*/
+  padding: 0;
+}
+
+#toggle {
+  width: 60px;
+  height: 60px;
+  background-image: url("hamburger-menu-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  cursor: pointer;
+}
+ul {
+  position: fixed;
+  left: -564px;
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul li {
+  height: 60px;
+  width: 500px;
+  border: 2px;
+  border-color: grey;
+  border-style: solid;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  color: black;
+}
+
+.grey-btn {
+  background-color: lightgrey;
+}
+.red-btn {
+  background-color: red;
+}
+.orange-btn {
+  background-color: orange;
+}
+.purple-btn {
+  background-color: purple;
+}
+.green-btn {
+  background-color: green;
+}
